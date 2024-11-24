@@ -1,0 +1,80 @@
+.containerFluid{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.title{
+    height: 5%;
+    color: #000000;
+    font-family: "GFS Neohellenic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.content{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.carousel {
+    width: 85%;
+    height: 100%;
+  }
+
+.carousel img {
+    height: 100%; 
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+@media (max-width: 480px) {
+    .containerFluid{
+        height: 18rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    
+    .title{
+        color: #023336;
+        font-weight: 700;
+        font-size: 2rem;
+        height: 4rem;
+    }
+    
+    .content{
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        height: 12rem;
+        margin-top: 0;
+    }
+
+    .carousel {
+        display: block; 
+        height: 100%;
+    }
+
+    .carousel img {
+        height: 12rem; 
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    
+
+    .indicators{
+        display: none;
+    }
+}
+    
+
+

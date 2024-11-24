@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Big+Shoulders+Display:wght@100..900&family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&family=Gurajada&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.containerFluid{
+    height: 130rem;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerFluid2{
+    height: 100%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.title{
+    color: #000000;
+    font-family: "GFS Neohellenic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4rem;
+    margin-top: 3rem;
+}
+
+.content{
+    height: 90%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.row1{
+    height: 40%;
+    display: flex;
+}
+
+.parent1{
+    width: 60%;
+    overflow: hidden;
+    position: relative;
+    padding: 1rem;
+}
+
+.parent2{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.child1{
+    height: 50%;
+    padding: 1rem;
+}
+
+.child2{
+    height: 50%;
+    padding: 1rem;
+}
+
+.row2{
+    height: 60%;
+    display: flex;
+}
+
+.p1{
+    width: 40%;
+    padding: 1rem;
+}
+
+.p2{
+    width: 60%;
+}
+
+.c1{
+    height: 50%;
+    padding: 1rem;
+}
+
+.c2{
+    height: 50%;
+    padding: 1rem;
+}
+
+.image{
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow:rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: 1s;
+}
+
+.image:hover{
+    transform: scale(1.02);
+}
+
+.seeMore{
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+@media (max-width: 480px) {
+
+    .containerFluid{
+        height: 40rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    
+    .containerFluid2{
+        height: 100%;
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #D0EBDC;
+        border-radius: 20px;
+    }
+
+    .title{
+        color: #023336;
+        font-weight: 700;
+        font-size: 2rem;
+        margin-top: 0rem;
+        width: 90%;
+        text-align: center;
+    }
+
+    .content{
+        height: 90%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5rem;
+    }
+
+    .parent1{
+        width: 60%;
+        overflow: hidden;
+        position: relative;
+        padding: 0.5rem;
+    }
+    
+    .parent2{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .child1{
+        height: 50%;
+        padding: 0.5rem;
+    }
+    
+    .child2{
+        height: 50%;
+        padding: 0.5rem;
+    }
+
+    .child1{
+        height: 50%;
+        padding: 0.5rem;
+    }
+
+    .p1{
+        width: 40%;
+        padding: 0.5rem;
+    }
+
+    .c1{
+        height: 50%;
+        padding: 0.5rem;
+    }
+    
+    .c2{
+        height: 50%;
+        padding: 0.5rem;
+    }
+    
+
+    .image{
+        object-fit: cover;
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+
+    }
+
+    .seeMore{
+        color: #023336;
+        font-weight: 500;
+        font-size: 1.2rem;
+        margin-top: 0.1rem;
+    }
+    
+}
